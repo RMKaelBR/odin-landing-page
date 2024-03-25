@@ -544,6 +544,123 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-1\/12 {
+  width: 8.333333%;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 /* * {
   border: 2px solid green;
 } */
@@ -575,11 +692,63 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
+  color: #E5E7EB;
+}
+
+footer {
+  background-color: #1F2937;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.hero-section {
+  background-color: #1F2937;
+}
+
+.hero-section h1 {
   color: #F9FAF8;
 }
 
-.first-style {
-  border: 1px solid red;
+.hero-section p {
+  color: #E5E7EB;
+}
+
+.info-section h2 {
+  color: #1F2937;
+}
+
+.info-figures figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.info-figures figure img {
+  min-height: 150px;
+  min-width: 100%;
+  border-width: 3px;
+  border-color: #3882F6;
+  border-radius: 5px;
+}
+
+.testimony-section {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.action-section article {
+  background-color: #3882F6;
+  color: #E5E7EB
+}
+
+#action-section-button {
+  border-width: 3px;
+  border-color: whitesmoke;
+  border-radius: 5px;
 }
 
 /* FONTS */

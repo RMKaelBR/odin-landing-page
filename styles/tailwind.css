@@ -33,12 +33,67 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
+  color: #E5E7EB;
+}
+
+footer {
+  background-color: #1F2937;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.hero-section {
+  background-color: #1F2937;
+}
+
+.hero-section h1 {
   color: #F9FAF8;
 }
 
-.first-style {
-  border: 1px solid red;
+.hero-section p {
+  color: #E5E7EB;
 }
+
+.info-section h2 {
+  color: #1F2937;
+}
+
+.info-figures figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.info-figures figure img {
+  min-height: 150px;
+  min-width: 100%;
+  border-width: 3px;
+  border-color: #3882F6;
+  border-radius: 5px;
+}
+
+.testimony-section {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.action-section article {
+  background-color: #3882F6;
+  color: #E5E7EB
+}
+
+#action-section-button { 
+  border-width: 3px;
+  border-color: whitesmoke;
+  border-radius: 5px;
+}
+
+
+
 
 
 /* FONTS */

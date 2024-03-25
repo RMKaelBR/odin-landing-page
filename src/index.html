@@ -10,27 +10,34 @@
     <!-- <link rel="stylesheet" href="../styles/tailwind.css"> -->
   </head>
   <body class="roboto-regular">
-    <nav>
-      <span class="header-logo">Header Logo</span>
+    <nav class="text-2xl flex justify-between">
+      <div><span class="header-logo">Header Logo</span></div>
       
-      <ul class="nav-links">
+      <ul class="nav-links text-lg">
         <li><a href="#">header link 1</a></li>
         <li><a href="#">header link 2</a></li>
         <li><a href="#">header link 3</a></li>
       </ul>
     </nav>
-    <section class="hero-section">
-      <h1>This website is awesome</h1>
-      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-      <button>Sign up</button>
-      <aside>
-        <div><img src="#"></div>
+
+    <section class="hero-section flex justify-center">
+      <div>
+        <h1 class="text-5xl font-extrabold">This website is awesome</h1>
+        <p class="text-lg">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+        <button>Sign up</button>
+      </div>
+      <aside class="hero-image bg-gray-500">
+        <figure>
+          <img src="#">
+          <figcaption>this is a placeholder for an image</figcaption>
+        </figure>
       </aside>
     </section>
-    <section class="info-section">
-      <h3>Some random information.</h3>
+
+    <section class="info-section flex-col text-center">
+      <h2 class="text-4xl font-extrabold">Some random information.</h2>
       <div>
-        <article>
+        <article class="info-figures flex justify-center">
           <figure>
             <img src="#">
             <figcaption>this is some subtext under an illustartion or image</figcaption>
@@ -50,21 +57,28 @@
         </article>
       </div>
     </section>
-    <section class="testimony-section">
-      <div class="testimony-content">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actuallyu read it. Who knows? All I know is that it looks nice.</p>
-        <span>Thor, God of Thunder</span>
+
+    <section class="testimony-section flex justify-center">
+      <div class="testimony-content flex-col w-8/12">
+        <p class="text-4xl font-light italic">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actuallyu read it. Who knows? All I know is that it looks nice.</p>
+        <p class="font-extrabold text-right">-The God-Emperor of Mankind</p>
       </div>
     </section>
-    <section class="action-section">
-      <div>
-        <h4>Call to action! It's time!</h4>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
-      </div>
+
+    <section class="action-section py-10">
+      <article class="w-full flex justify-center py-4">
+        <div class="w-8/12 flex justify-between">
+          <div>
+            <h4 class="font-weight-800">Call to action! It's time!</h4>
+            <p>Sign up for our product by clicking that button right over there!</p>
+          </div>
+          <button id="action-section-button" class="w-2/12">Sign up</button>
+        </div>
+      </article>
     </section>
-    <footer>
-      <span>Copyright © The Oding Project 2024</span>
+
+    <footer class="text-center p-4">
+      <span class="text-gray-400">Copyright © The Odin Project 2024</span>
     </footer>
   </body>
 </html>
